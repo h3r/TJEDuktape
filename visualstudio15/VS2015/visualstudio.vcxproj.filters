@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\camera.cpp" />
+    <ClCompile Include="..\..\src\game.cpp" />
+    <ClCompile Include="..\..\src\main.cpp" />
+    <ClCompile Include="..\..\src\extra\textparser.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet\box.cpp">
+      <Filter>extra\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet\box_bld.cpp">
+      <Filter>extra\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet\coldet.cpp">
+      <Filter>extra\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet\coldet_bld.cpp">
+      <Filter>extra\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet\math3d.cpp">
+      <Filter>extra\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet\mytritri.cpp">
+      <Filter>extra\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet\sysdep.cpp">
+      <Filter>extra\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\coldet\tritri.c">
+      <Filter>extra\coldet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\picopng.cpp">
+      <Filter>extra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\fbo.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\rendertotexture.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\texture.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shader.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\mesh.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\framework.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\input.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\animation.cpp">
+      <Filter>gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\imgui_demo.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\imgui_draw.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\imgui_impl_opengl3.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\imgui_impl_sdl.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\imgui_widgets.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\ImGuizmo.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\ImSequencer.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\ImCurveEdit.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\ImGradient.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\imgui-docking\imgui.cpp">
+      <Filter>extra\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scripts.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\scriptconsole.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\duktape\duktape.c">
+      <Filter>extra\duktape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\extra\duktape\duk_console.cpp">
+      <Filter>extra\duktape</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\camera.h" />
+    <ClInclude Include="..\..\src\game.h" />
+    <ClInclude Include="..\..\src\extra\textparser.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\coldet\box.h">
+      <Filter>extra\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\coldet\coldet.h">
+      <Filter>extra\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\coldet\coldetimpl.h">
+      <Filter>extra\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\coldet\math3d.h">
+      <Filter>extra\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\coldet\mytritri.h">
+      <Filter>extra\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\coldet\sysdep.h">
+      <Filter>extra\coldet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\picopng.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\fbo.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\rendertotexture.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\texture.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shader.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\mesh.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\framework.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\includes.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\input.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\animation.h">
+      <Filter>gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\duktape\duktape.h">
+      <Filter>extra\duktape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\duktape\duk_config.h">
+      <Filter>extra\duktape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_class_proto.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_constructor.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_function.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_method.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_primitive_types.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_refs.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_stack.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_traits.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_typeinfo.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\detail_types.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\dukexception.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\dukglue.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\dukvalue.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\public_util.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\register_class.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\register_function.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\dukglue\register_property.h">
+      <Filter>extra\dukglue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\duktape\duk_console.h">
+      <Filter>extra\duktape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\imgui_impl_opengl3.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\imgui_impl_sdl.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\imgui_internal.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\ImGuizmo.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\ImSequencer.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\imstb_rectpack.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\imstb_textedit.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\imstb_truetype.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\imconfig.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\ImCurveEdit.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\ImGradient.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-docking\imgui.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scripts.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\scriptconsole.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-remote\imgui_remote_webby.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\extra\imgui-remote\imgui_remote.h">
+      <Filter>extra\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\register_things">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\entity.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="extra">
+      <UniqueIdentifier>{0193360c-cb30-415b-af36-3a964b4283cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra\coldet">
+      <UniqueIdentifier>{9fb2af86-1d0f-47da-9841-0d09fb2479f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gfx">
+      <UniqueIdentifier>{12f641db-a3cf-408b-ba79-f173c3a1594d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{feb78646-9d96-43df-8d00-2397429ea3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra\duktape">
+      <UniqueIdentifier>{669af62d-43f3-4bd7-9076-053c5e903426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra\dukglue">
+      <UniqueIdentifier>{69aad36d-275b-417b-8f31-57d2fe95f390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra\imgui">
+      <UniqueIdentifier>{800be477-9d16-42fd-8b47-4ff5917b380c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

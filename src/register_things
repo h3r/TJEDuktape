@@ -1,0 +1,16 @@
+dukglue_register_function(Script::ctx, &Script::Load, "require");
+
+dukglue_register_constructor<Entity>(ctx, "Entity");
+dukglue_register_property(ctx,	&Entity::getID			, nullptr			    , "id");
+dukglue_register_property(ctx,	&Entity::getPosition	, &Entity::setPosition	, "_position");
+dukglue_register_function(ctx,	&Entity::getEntity		, "getEntity");
+
+dukglue_register_constructor<Agent>(ctx, "Agent");
+dukglue_register_method(ctx,	&Agent::getProperty		, "getProperty");
+dukglue_register_method(ctx,	&Agent::setProperty		, "setProperty");
+dukglue_register_method(ctx,	&Agent::hasProperty		, "hasProperty");
+dukglue_register_property(ctx,	&Agent::getPosition		, &Agent::setPosition	, "_position");
+dukglue_register_property(ctx,	&Agent::getModel		, &Agent::setModel	, "_model");
+
+//dukglue_register_function(ctx,&Agent::getAgent		, "getAgent");
+//dukglue_register_function(ctx,&Agent::getAllAgents	, "getAllAgents");

@@ -1,0 +1,14 @@
+*.obj
+*.log
+*.tlog
+*.idb
+*.pdb
+*.sdf
+*.filters
+*.suo
+*.exe
+*.ilk
+*.ini
+*.opensdf
+*xcuserdata*
+*.xccheckout
