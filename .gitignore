@@ -1,0 +1,5 @@
+﻿data/.vscode
+src/extra/imgui-docking/examples/.vs
+.vs
+visualstudio15/VS2015/Debug
+*.pdb

@@ -1,0 +1,5 @@
+﻿  imgui_impl_sdl.cpp
+E:\User\Documents\source\repos\TJE_duktape\src\extra\imgui-docking\examples\imgui_impl_sdl.cpp(53,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  main.cpp
+E:\User\Documents\source\repos\TJE_duktape\src\extra\imgui-docking\examples\example_sdl_opengl3\main.cpp(10,10): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+  Generating Code...

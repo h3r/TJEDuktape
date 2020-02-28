@@ -1,0 +1,9 @@
+﻿  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_widgets.cpp
+  imgui_impl_dx12.cpp
+E:\User\Documents\source\repos\TJE_duktape\src\extra\imgui-docking\examples\imgui_impl_dx12.cpp(465,39): error C2338: Can't pack descriptor handle into TexID, 32-bit not supported yet.
+  imgui_impl_win32.cpp
+  main.cpp
+  Generating Code...
