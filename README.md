@@ -1,5 +1,8 @@
 # TJEDuktape
-An extension of the TJE framework from @jagenjo using DukTape and DukGlue for scripting
+An extension of the TJE framework from @jagenjo using DukTape and DukGlue for scripting. 
+![](https://i.imgur.com/hPpSWqH.png)
+
+Includes a basic console with some scripts preloaded. Those scripts are listed on init.js inside data/scripts folder.
 
 Features included:
 * Most ES5
